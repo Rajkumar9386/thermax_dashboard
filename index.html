@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thermax</title>
+  <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-10r">
+          <li class="nav-item">
+            <img src="img/menu-close.png" class="menu-close-icon">
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link notification-bell" href="#">
+              <i class="fa fa-bell-o" aria-hidden="true"></i>
+              <span class="badge badge-red">4</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/user-icon.png" class="user-icon">
+              <img src="img/down-angle-arrow.png" class="down-arrow">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <aside class="side-menu-wrapper">
+      <div class="side-menu-sub-wrap">
+        <h6 class="menu-title">CONTENT MANAGEMENT</h6>
+          <ul class="menu-items-wrap">
+            <li class="menu-item-drp">
+              <a href="#" class="menu-item-link-dropdown">
+                <img src="img/menu-icons/home.png" class="inactive-img">
+                <img src="img/menu-icons/home_active.png" class="active-img">
+                <span>Home</span>
+                <img src="img/down-angle-arrow.png" class="down-arrow">
+              </a>
+              <ul class="sub-menu-items-wrap">
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Enery</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Environment</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Chemicals</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Services</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Industries</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Career</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item-drp">
+              <a href="#" class="menu-item-link-dropdown">
+                <img src="img/menu-icons/market_info.png" class="inactive-img">
+                <img src="img/menu-icons/market_info_active.png" class="active-img">
+                <span>Energy</span>
+                <img src="img/down-angle-arrow.png" class="down-arrow">
+              </a>
+              <ul class="sub-menu-items-wrap">
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Power</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Boiler & Heater</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Process heating</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Steam engineering</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">
+                <img src="img/menu-icons/who_is_who.png" class="inactive-img">
+                <img src="img/menu-icons/who_is_who_active.png" class="active-img">
+                <span>Chemicals</span>
+              </a>
+            </li>
+            <li class="menu-item-drp">
+              <a href="#" class="menu-item-link-dropdown">
+                <img src="img/menu-icons/resource_library.png" class="inactive-img">
+                <img src="img/menu-icons/resource_library_active.png" class="active-img">
+                <span>Environment</span>
+                <img src="img/down-angle-arrow.png" class="down-arrow">
+              </a>
+              <ul class="sub-menu-items-wrap">
+                <li class="sub-menu-item active">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Air Pollution Control</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Water & Waste Solution</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">
+                <img src="img/menu-icons/events.png" class="inactive-img">
+                <img src="img/menu-icons/events_active.png" class="active-img">
+                <span>Careers</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">
+                <img src="img/menu-icons/forums.png" class="inactive-img">
+                <img src="img/menu-icons/forums_active.png" class="active-img">
+                <span>Industries</span>
+              </a>
+            </li>
+            <li class="menu-item-drp">
+              <a href="#" class="menu-item-link-dropdown">
+                <img src="img/menu-icons/virtual_entertainment.png" class="inactive-img">
+                <img src="img/menu-icons/virtual_entertainment_active.png" class="active-img">
+                <span>Serices</span>
+                <img src="img/down-angle-arrow.png" class="down-arrow">
+              </a>
+              <ul class="sub-menu-items-wrap">
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Water & Waste Solution</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Outsourced utility delivery serices on boot</span>
+                  </a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-item-link">
+                    <span>Cooling Services</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+
+      <div class="side-menu-sub-wrap">
+        <h6 class="menu-title">OTHERS</h6>
+          <ul class="menu-items-wrap">
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">
+                <img src="img/menu-icons/subscription_management.png" class="inactive-img">
+                <img src="img/menu-icons/subscription_management_active.png" class="active-img">
+                <span>Global</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </aside>
+
+    <div class="main-content-body">
+        <div class="form-title">
+          <h4 class="form-title-text">Form Title</h4>
+        </div>
+        <div class="form-wrap">
+          <form>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">First Name</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter first name">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Last Name</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter last name">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Company ID</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" value="0024" disabled="true">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Company Name</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter company name">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Customer Name</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter customer name">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Model Year</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter model year">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Subject</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter subject">
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Cross Function</label>
+                  <input type="text" class="form-control f-control-custom" id="" aria-describedby="" placeholder="Enter cross function">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group">
+                  <label for="" class="input-label-text">Responsibility</label>
+                  <div class="dropdown">
+                    <button class="btn select-group  dropdown-toggle f-control-custom" type="button" id="SelectList1"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span>Please select Industry</span>
+                      <!-- <img src="assets/icons/drop-down-arrow.png" class="drp-arrow"> -->
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-width drp-list-1" aria-labelledby="SelectList1">
+                      <a class="dropdown-item" href="#">Local Business</a>
+                      <a class="dropdown-item" href="#">Online business </a>
+                      <a class="dropdown-item" href="#">E-commerce</a>
+                      <a class="dropdown-item" href="#">Healthcare</a>
+                      <a class="dropdown-item" href="#">Financial Services</a>
+                      <a class="dropdown-item" href="#">Others</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-group" style="position: relative;">
+                  <label for="" class="input-label-text">Date</label>
+                  <input type="text" class="form-control f-control-custom" id="datepicker" data-date-format="dd/mm/yyyy" placeholder="Select Date">
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary blue-btn mb-2 mt-4">Submit</button>
+          </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+          $('.menu-item-drp').each(function() {
+            var $menuItem = $(this);
+            $("a.menu-item-link-dropdown", $menuItem).click(function(e) {
+              e.preventDefault();
+              $subMenuItem = $(".sub-menu-items-wrap", $menuItem);
+              $subMenuItem.slideToggle();
+              $(".sub-menu-items-wrap").not($subMenuItem).slideUp();
+              return false;
+            });
+
+          });
+
+          $(function() {
+            $( '.menu-items-wrap .menu-item' ).on( 'click', function() {
+              $(".menu-items-wrap").find('.menu-item.active').removeClass( 'active' );
+              $(this).toggleClass( 'active' );
+            });
+
+            $( '.sub-menu-items-wrap .sub-menu-item' ).on( 'click', function() {
+              $(".sub-menu-items-wrap").find('.sub-menu-item.active').removeClass( 'active' );
+              $(this).toggleClass( 'active' );
+            });
+
+            $( '.menu-item-link-dropdown' ).on( 'click', function() {
+              $(".menu-item-drp").find('.menu-item-link-dropdown.active').removeClass( 'active' );
+              $(this).toggleClass( 'active' );
+            });
+          });
+        });
+    </script>
+    <script>
+      $(function(){
+       $(document).ready(function() {
+          
+            $(function() {
+                $( "#datepicker" ).datepicker();
+            });
+        })
+        $(".drp-list-1 a").click(function(){
+          $("#SelectList1 span").text($(this).text());
+        });
+         $(".function-drp-list a").click(function(){
+          $("#SelectFunction span").text($(this).text());
+        });
+
+      });
+    </script>
+  </body>
+</html>
